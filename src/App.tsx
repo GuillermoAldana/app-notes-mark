@@ -1,10 +1,12 @@
+import { Typography } from '@mui/material';
+import '@fontsource/ubuntu';
 import './App.css';
 
 const App = () => {
   return (
     <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
+      <Typography variant='h3'>Rsbuild with React</Typography>
+      <Typography variant='h6'>Start building amazing things with Rsbuild.</Typography>
     </div>
   );
 };
